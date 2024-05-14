@@ -23,7 +23,9 @@
             android:text="@string/alarm"
             android:textColor="@color/white"
             android:textSize="24sp"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold">
+
+        </TextView>
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:layout_width="43dp"

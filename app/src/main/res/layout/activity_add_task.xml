@@ -45,6 +45,7 @@
             android:layout_width="312dp"
             android:layout_height="32dp"
             android:layout_marginStart="40dp"
+            android:layout_marginTop="0dp"
             android:background="@drawable/edit_text_design"
             android:text="@string/head_task"
             android:paddingLeft="10dp"
@@ -102,18 +103,20 @@
             android:gravity="center_vertical"
             android:drawablePadding="10dp">
         </TextView>
-        
-        <TextView
+
+        <EditText
             android:layout_width="312dp"
             android:layout_height="96dp"
+            android:layout_marginLeft="-311dp"
             android:layout_marginTop="85dp"
-            android:layout_marginLeft="-313dp"
             android:background="@drawable/edit_text_design"
+            android:paddingLeft="5dp"
             android:text="@string/comment_task"
+            android:gravity="top|left"
             android:textColor="@color/gray"
-            android:textSize="18dp"
-            android:paddingLeft="5dp">
-        </TextView>
+            android:textSize="18dp">
+
+        </EditText>
 
     </LinearLayout>
 
