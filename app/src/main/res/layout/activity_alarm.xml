@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mint"
+    android:orientation="vertical"
+    tools:context=".alarm_activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="35px"
+            android:text="@string/alarm"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"></TextView>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="43dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="400px"
+            android:layout_marginTop="25px"
+            android:background="@drawable/avataricon">
+        </androidx.appcompat.widget.AppCompatImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="57px">
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="56dp"
+            android:text="07:30"
+            android:textAlignment="center"
+            android:textSize="48sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-2dp">
+
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="13px"
+            android:layout_marginLeft="260px"
+            android:src="@drawable/rectangle_el">
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="97px">
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="56dp"
+            android:text="08:00"
+            android:textAlignment="center"
+            android:textSize="48sp"
+            android:textColor="@color/white"
+
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+        
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="15px"
+            android:layout_marginLeft="260px"
+            android:background="@drawable/rectangle2_el">
+
+        </ImageView>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="300dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="312dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="42dp"
+            android:background="@drawable/button_alarm"
+            android:text="@string/add_alarm"
+            android:onClick="next_activity"
+            android:textColor="@color/white"
+            android:textStyle="normal">
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="288dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="55dp"
+            android:background="@drawable/rectangle_green_back">
+        </ImageView>
+        
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/listbutton"
+            android:layout_marginLeft="-260dp"
+            android:layout_marginTop="5dp">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/alarmbutton"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/calendarbutton"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/settingsbutton"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp">
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

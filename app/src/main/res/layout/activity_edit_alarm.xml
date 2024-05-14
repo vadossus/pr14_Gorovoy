@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit_alarm_activity"
+    android:background="@color/mint">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+
+        <TextView
+            android:layout_width="241dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/change_alarm"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/red_button"
+            android:onClick="next_activity6">
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginTop="65dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/edit_text_design"
+            android:drawableLeft="@drawable/icon_alarm"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@color/gray">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="209dp"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scroll"
+                android:textColor="@color/gray"
+                android:textAlignment="center">
+            </TextView>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/edit_text_design"
+            android:drawableLeft="@drawable/icon_calendar"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/date"
+            android:textColor="@color/gray">
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="130dp">
+        
+        <TextView
+            android:layout_width="182dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/repeat_every_day"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="@color/white">
+        </TextView>
+        
+        <LinearLayout
+            android:layout_width="131dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="-180dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/rectangle_button">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2.5dp"
+                android:text="@string/monday"
+                android:textColor="@color/white">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="131dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="-131dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/rectangle_button">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2.5dp"
+                android:text="@string/tuesday"
+                android:textColor="@color/white">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="131dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="-131dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/rectangle_button">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2.5dp"
+                android:text="@string/wednesday"
+                android:textColor="@color/white">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="131dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="-131dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/rectangle_button">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2.5dp"
+                android:text="@string/thursday"
+                android:textColor="@color/white">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="131dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="-131dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/rectangle_button">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2.5dp"
+                android:text="@string/friday"
+                android:textColor="@color/white">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="131dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="225dp"
+            android:layout_marginLeft="-131dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/rectangle_button">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2.5dp"
+                android:text="@string/saturday"
+                android:textColor="@color/white">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="131dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="-131dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/rectangle_button">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2.5dp"
+                android:text="@string/sunday"
+                android:textColor="@color/white">
+            </TextView>
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="524dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/red_button_edit_alarm"
+            android:text="@string/remove_task"
+            android:textColor="@color/white"
+            android:textStyle="normal">
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="580dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/button_alarm"
+            android:text="@string/write_task"
+            android:textColor="@color/white"
+            android:textStyle="normal">
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+</RelativeLayout>

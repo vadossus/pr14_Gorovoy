@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">application_14</string>
+    <string name="alarm">Будильник</string>
+    <string name="add_alarm">Добавить будильник</string>
+    <string name="add_task">Добавить задачу</string>
+    <string name="head_task">Заголовок задачи</string>
+    <string name="time_task_1">16:30</string>
+    <string name="date">14.01.2021</string>
+    <string name="comment_task">Описание задачи</string>
+    <string name="change_alarm">Изменить будильник</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="repeat_every_day">Повторять каждый день</string>
+    <string name="remove_task">Удалить задачу</string>
+    <string name="write_task">Записать задачу</string>
+    <string name="scroll">16:30\n17:30\n18:30\n19:30\n20:30\n21:30\n22:30\n23:30\n\n\n\n\n</string>
+</resources>

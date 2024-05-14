@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".general_activity"
+    android:background="@color/mint">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp">
+
+        <TextView
+            android:layout_width="131dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="27dp"
+            android:text="Список дел"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/avataricon"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="7dp">
+
+        </ImageView>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="392dp"
+            android:layout_height="90dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="312dp"
+                android:layout_height="72dp"
+                android:layout_marginLeft="36dp"
+                android:background="@color/mint"
+                android:src="@drawable/task1">
+
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="312dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="36dp"
+                android:src="@drawable/task2"
+                android:background="@color/mint">
+            </androidx.appcompat.widget.AppCompatImageButton>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="312dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="36dp"
+                android:src="@drawable/task3"
+                android:background="@color/mint">
+            </androidx.appcompat.widget.AppCompatImageButton>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="140dp">
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/button_alarm"
+            android:text="@string/add_task"
+            android:textColor="@color/white"
+            android:onClick="next_activity3">
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="18dp">
+        
+        <ImageView
+            android:layout_width="288dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/rectangle_green_back">
+        </ImageView>
+        
+        
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="-255dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/listbutton"
+            android:background="@color/lime">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/alarmbutton"
+            android:onClick="next_activity2"
+            android:background="@color/lime">
+
+        </ImageButton>
+
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/calendarbutton"
+            android:background="@color/lime">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/lime"
+            android:src="@drawable/settingsbutton">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+
+</TableLayout>
